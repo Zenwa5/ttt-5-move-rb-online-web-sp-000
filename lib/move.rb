@@ -12,5 +12,5 @@ return converted_input - 1
 end
 
 def move(board, index, character = "X")
-  board["#{converted_input}"] = character
+  board[0] = character
 end
