@@ -12,7 +12,7 @@ return converted_input - 1
 end
 
 def move(board, index, character = "X")
-  board[] = converted_input
+  board[index] = converted_input
 end
 
 move(board, 0, "X")
