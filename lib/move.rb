@@ -11,5 +11,5 @@ converted_input = "#{user_input}".to_i
 return converted_input - 1
 end
 
-def move
+def move(board,board[], character = "X")
 end
